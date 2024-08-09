@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="image-container">
+    <table>
+        <tr th:each="image : ${images}">
+            <td th:text="${image.id}"></td>
+            <td th:text="${image.name}"></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

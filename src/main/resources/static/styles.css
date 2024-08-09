@@ -1,0 +1,72 @@
+body {
+    font-family: "Californian FB", "Comic Sans MS", cursive, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p#secret-message {
+    font-size: small;
+    font-style: italic;
+    color: #666;
+    margin-top: -15px;
+    margin-left: 200px;
+}
+
+div#form-container {
+    margin: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+div#form-container label {
+    margin: 10px;
+}
+
+div#form-container input {
+    margin: 5px;
+    padding: 5px;
+}
+
+div#button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+div#card-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px;
+}
+
+.error-message {
+    color: darkred;
+    font-weight: bold;
+}
